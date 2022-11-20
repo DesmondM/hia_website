@@ -119,9 +119,7 @@ export const Partners = () => {
                                     </li>
 
 
-                        <li className="nl-simple header-btn" aria-haspopup="true"><a href="appointment.html">Biz Owner SignUp</a></li>
-
-
+                                    <li className="nl-simple header-btn" aria-haspopup="true"><a href="https://dev.zd-solutions.co.za/ords/plexi/r/agent-portal/login_desktop?session=5447060006340" target={'_blank'}>Biz Owner SignUp</a></li>
                         </ul>
                     </nav>
 

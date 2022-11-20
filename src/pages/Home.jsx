@@ -167,8 +167,7 @@ const Home = () => {
                                     </li>
 
 
-                        <li className="nl-simple header-btn" aria-haspopup="true"><a href="appointment.html">Biz Owner SignUp</a></li>
-
+                                    <li className="nl-simple header-btn" aria-haspopup="true"><a href="https://dev.zd-solutions.co.za/ords/plexi/r/agent-portal/login_desktop?session=5447060006340" target={'_blank'}>Biz Owner SignUp</a></li>
 
                         </ul>
                     </nav>
@@ -353,15 +352,17 @@ const Home = () => {
                   {filteredRecords.premium}
                 </span>
                 <p style={{ marginRight:'-55px', marginTop:'50px', padding: '0 0 15px 0', float:'center'}}>Per Month</p>
-                {/* <button
-                  type="button"
+                 <button
+                  type="submit" className="btn btn-orange tra-white-hover submit"
+                  
                   style={{
-                    display: "block",
-                    margin: "auto",
+                    background:'yellow', border: '2px solid yellow'
+
                   }}
-                >
-                  Click to apply
-                </button> */}
+                  
+                ><a href='https://dev.zd-solutions.co.za/ords/plexi/plexi/r/forms/hia-new-funeral/'>
+                  Click to Apply
+                  </a></button> 
               </p>
             ))}
 
